@@ -1,0 +1,13 @@
+
+Given a string, 
+find the length of the longest substring without repeating characters.
+Example:
+The longest substring without repeating letters for "abcabcbb" is "abc", which the length is 3.
+For "bbbbb" the longest substring is "b", with the length of 1.
+
+
+NOTE: You only need to implement the given function. Do not read input, instead use the arguments to the function. Do not print the output, instead return values as specified.
+                                  Still have a doubt? Checkout Sample Codes for more details.
+                              
+
+

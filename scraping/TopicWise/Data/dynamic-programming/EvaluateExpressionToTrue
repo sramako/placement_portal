@@ -1,0 +1,29 @@
+
+Given expression with operands and operators (OR , AND , XOR) , in how many ways can you evaluate the expression to true, by grouping in different ways? Operands are only true and false.
+Input:
+string :  T|F&T^T
+here '|' will represent or operator 
+     '&' will represent and operator
+     '^' will represent xor operator
+     'T' will represent true operand
+     'F' will false
+
+
+Output:
+different ways % MOD
+where MOD = 1003
+
+
+Example:
+string : T|F
+only 1 way (T|F) => T
+so output will be 1 % MOD = 1
+
+
+
+
+NOTE: You only need to implement the given function. Do not read input, instead use the arguments to the function. Do not print the output, instead return values as specified.
+                                  Still have a doubt? Checkout Sample Codes for more details.
+                              
+
+

@@ -1,0 +1,12 @@
+
+Given a sorted linked list, delete all duplicates such that each element appear only once.
+For example,
+Given 1->1->2, return 1->2.
+Given 1->1->2->3->3, return 1->2->3.
+
+
+NOTE: You only need to implement the given function. Do not read input, instead use the arguments to the function. Do not print the output, instead return values as specified.
+                                  Still have a doubt? Checkout Sample Codes for more details.
+                              
+
+

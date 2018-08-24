@@ -1,0 +1,14 @@
+
+You are given a string. The only operation allowed is to insert  characters in the beginning of the string. How many minimum characters are needed to be inserted to make the string a palindrome string  
+Example:
+Input: ABC
+Output: 2
+Input: AACECAAAA
+Output:  2
+
+
+NOTE: You only need to implement the given function. Do not read input, instead use the arguments to the function. Do not print the output, instead return values as specified.
+                                  Still have a doubt? Checkout Sample Codes for more details.
+                              
+
+

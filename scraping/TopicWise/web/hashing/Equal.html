@@ -1,0 +1,9 @@
+<style>
+div{
+  background-color: lightblue;
+}
+</style>
+  <div>
+    <h1>Placement Tool</h1>
+  </div>
+<html><p></p><p>Given an array A of integers, find the index of values that satisfy A + B = C + D, where A,B,C &amp; D are integers values in the array</p><p>Note:</p><p>1) Return the indices `A1 B1 C1 D1`, so that </p><p>  A[A1] + A[B1] = A[C1] + A[D1]</p><p>  A1 &lt; B1, C1 &lt; D1</p><p>  A1 &lt; C1, B1 != D1, B1 != C1 </p><p></p><p>2) If there are more than one solutions, </p><p>   then return the tuple of values which are lexicographical smallest. </p><p></p><p>Assume we have two solutions</p><p>S1 : A1 B1 C1 D1 ( these are values of indices int the array )  </p><p>S2 : A2 B2 C2 D2</p><p></p><p>S1 is lexicographically smaller than S2 iff</p><p>  A1 &lt; A2 OR</p><p>  A1 = A2 AND B1 &lt; B2 OR</p><p>  A1 = A2 AND B1 = B2 AND C1 &lt; C2 OR </p><p>  A1 = A2 AND B1 = B2 AND C1 = C2 AND D1 &lt; D2</p><p></p><p></p><p>Example:</p><p>Input: [3, 4, 7, 1, 2, 9, 8]</p><p>Output: [0, 2, 3, 5] (O index)</p><p></p><p></p><p>If no solution is possible, return an empty list.</p><p></p><p></p><p>NOTE: You only need to implement the given function. Do not read input, instead use the arguments to the function. Do not print the output, instead return values as specified.</p><p>                                  Still have a doubt? Checkout Sample Codes for more details.</p><p>                              </p><p></p><p></p><p></p></html>

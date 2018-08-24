@@ -1,0 +1,129 @@
+
+Predict the output of the following program :
+
+
+C
+C++
+Java
+Python
+Javascript
+
+
+
+
+int* performOps(int *A, int len, int *blen) {
+    int i;
+    *blen = len * 2;
+    int *B = (int *)malloc((*blen) * sizeof(int));
+    for (i = 0; i < len; i++) {
+        B[i] = A[i];
+        B[i + len] = A[(len - i) % len];
+    }
+    return B;
+}
+
+
+
+Lets say performOps was called with len = 4, and A : [5, 10, 2, 1].
+What would be the output of the following call :
+
+int blen; 
+int *B = performOps(A, len, &blen);
+int i;
+for (i = 0; i < blen; i++) {
+    printf("%d ", B[i]);
+}
+
+
+
+
+
+vector<int> performOps(vector<int> A) {
+    vector<int> B(2 * A.size(), 0);
+    for (int i = 0; i < A.size(); i++) {
+        B[i] = A[i];
+        B[i + A.size()] = A[(A.size() - i) % A.size()];
+    }
+    return B;
+}
+
+
+
+Lets say performOps was called with A : [5, 10, 2, 1].
+What would be the output of the following call :
+
+vector<int> B = performOps(A);
+for (int i = 0; i < B.size(); i++) {
+    cout<<B[i]<<" ";
+}
+
+
+
+
+
+
+ArrayList<Integer> performOps(ArrayList<Integer> A) {
+        ArrayList<Integer> B = new ArrayList<Integer>();
+        for (int i = 0; i < 2 * A.size(); i++) B.add(0);
+        for (int i = 0; i < A.size(); i++) {
+                B.set(i, A.get(i));
+                B.set(i + A.size(), A.get((A.size() - i) % A.size()));
+        }
+        return B;
+}
+
+
+
+Lets say performOps was called with A : [5, 10, 2, 1].
+What would be the output of the following call :
+
+ArrayList<Integer> B = performOps(A);
+for (int i = 0; i < B.size(); i++) {
+        System.out.print(B.get(i) + " ");
+}
+
+
+
+
+
+def performOps(A):
+    blen = 2 * len(A)
+    B = [0]*blen
+    for i in xrange(len(A)):
+        B[i] = A[i]
+        B[i + len(A)] = A[(len(A) - i) % len(A)]
+    return B
+
+
+
+Lets say performOps was called with A : [5, 10, 2, 1].
+What would be the output of the following call :
+B = performOps(A)
+for i in xrange(len(B)):
+    print B[i],
+
+
+
+
+function performOps(A){
+    B = new Array(2 * A.length)
+
+    for (var i = 0; i < A.length; i++) {
+        B[i] = A[i];
+        B[i + A.length] = A[(A.length - i) % A.length];
+    }
+    return B;
+}
+
+
+Lets say performOps was called with A : [5, 10, 2, 1].
+What would be the output of the following call :
+B = performOps(A)
+for (var i = 0; i < B.length; i++) {
+    process.stdout.write(B[i]+" ");
+}
+
+
+
+
+

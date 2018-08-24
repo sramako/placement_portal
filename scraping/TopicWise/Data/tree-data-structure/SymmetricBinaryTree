@@ -1,0 +1,27 @@
+
+Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).
+Example :
+    1
+   / \
+  2   2
+ / \ / \
+3  4 4  3
+
+
+The above binary tree is symmetric. 
+But the following is not:
+    1
+   / \
+  2   2
+   \   \
+   3    3
+
+
+Return 0 / 1 ( 0 for false, 1 for true ) for this problem
+
+
+NOTE: You only need to implement the given function. Do not read input, instead use the arguments to the function. Do not print the output, instead return values as specified.
+                                  Still have a doubt? Checkout Sample Codes for more details.
+                              
+
+

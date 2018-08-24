@@ -1,0 +1,30 @@
+
+Given a binary tree, print a vertical order traversal of it.
+Example :
+Given binary tree:
+      6
+    /   \
+   3     7
+  / \     \
+ 2   5     9
+
+
+returns
+[
+    [2],
+    [3],
+    [6 5],
+    [7],
+    [9]
+]
+
+
+
+Note : If 2 Tree Nodes shares the same vertical level then the one with lesser depth will come first.
+
+
+NOTE: You only need to implement the given function. Do not read input, instead use the arguments to the function. Do not print the output, instead return values as specified.
+                                  Still have a doubt? Checkout Sample Codes for more details.
+                              
+
+

@@ -1,0 +1,16 @@
+
+Given an absolute path for a file (Unix-style), simplify it.
+Examples:
+path = "/home/", => "/home"
+path = "/a/./b/../../c/", => "/c"
+
+
+Note that absolute path always begin with ‘/’ ( root directory )
+Path will not have whitespace characters.
+
+
+NOTE: You only need to implement the given function. Do not read input, instead use the arguments to the function. Do not print the output, instead return values as specified.
+                                  Still have a doubt? Checkout Sample Codes for more details.
+                              
+
+

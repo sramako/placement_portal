@@ -1,0 +1,16 @@
+
+Given two binary strings, return their sum (also a binary string).
+Example:
+a = "100"
+
+b = "11"
+
+
+Return a + b =  “111”.
+
+
+NOTE: You only need to implement the given function. Do not read input, instead use the arguments to the function. Do not print the output, instead return values as specified.
+                                  Still have a doubt? Checkout Sample Codes for more details.
+                              
+
+

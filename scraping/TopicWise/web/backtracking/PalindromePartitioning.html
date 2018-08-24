@@ -1,0 +1,9 @@
+<style>
+div{
+  background-color: lightblue;
+}
+</style>
+  <div>
+    <h1>Placement Tool</h1>
+  </div>
+<html><p></p><p>Given a string s, partition s such that every string of the partition is a palindrome.</p><p>Return all possible palindrome partitioning of s.</p><p>For example, given s = "aab",</p><p>Return</p><p>  [</p><p>    ["a","a","b"]</p><p>    ["aa","b"],</p><p>  ]</p><p></p><p></p><p></p><p>Ordering the results in the answer :</p><p>Entry i will come before Entry j if :</p><p></p><p>len(Entryi[0]) &lt; len(Entryj[0]) OR</p><p>(len(Entryi[0]) == len(Entryj[0]) AND len(Entryi[1]) &lt; len(Entryj[1])) OR</p><p>*</p><p>*</p><p>*</p><p>(len(Entryi[0]) == len(Entryj[0]) AND … len(Entryi[k] &lt; len(Entryj[k]))</p><p></p><p></p><p>In the given example,</p><p>["a", "a", "b"] comes before ["aa", "b"] because len("a") &lt; len("aa")</p><p></p><p></p><p>NOTE: You only need to implement the given function. Do not read input, instead use the arguments to the function. Do not print the output, instead return values as specified.</p><p>                                  Still have a doubt? Checkout Sample Codes for more details.</p><p>                              </p><p></p><p></p><p></p></html>

@@ -1,0 +1,19 @@
+
+Given a string S, reverse the string using stack.
+Example :
+Input : "abc"
+Return "cba"
+
+
+PROBLEM APPROACH :
+Complete solution in hints.
+
+
+
+
+
+NOTE: You only need to implement the given function. Do not read input, instead use the arguments to the function. Do not print the output, instead return values as specified.
+                                  Still have a doubt? Checkout Sample Codes for more details.
+                              
+
+

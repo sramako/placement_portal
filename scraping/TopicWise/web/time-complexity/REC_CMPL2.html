@@ -1,0 +1,9 @@
+<style>
+div{
+  background-color: lightblue;
+}
+</style>
+  <div>
+    <h1>Placement Tool</h1>
+  </div>
+<html><p></p><p>What is the worst case time complexity of the following code:</p><p>int findMinPath(vector&lt;vector&lt;int&gt; &gt; &amp;V, int r, int c) {</p><p>  int R = V.size();</p><p>  int C = V[0].size();</p><p>  if (r &gt;= R || c &gt;= C) return 100000000; // Infinity</p><p>  if (r == R - 1 &amp;&amp; c == C - 1) return 0;</p><p>  return V[r][c] + min(findMinPath(V, r + 1, c), findMinPath(V, r, c + 1));</p><p>}</p><p></p><p></p><p>Assume R = V.size() and C = V[0].size().</p><p></p><p>NOTE : This question involves recursion which will be explained later in topic Backtracking. So, if you are not able to approach this question now, you can give it a try later.</p><p></p><p></p></html>

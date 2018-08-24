@@ -1,0 +1,9 @@
+<style>
+div{
+  background-color: lightblue;
+}
+</style>
+  <div>
+    <h1>Placement Tool</h1>
+  </div>
+<html><p></p><p>What is the worst case time complexity of the following code :</p><p>/* </p><p> * V is sorted </p><p> * V.size() = N</p><p> * The function is initially called as searchNumOccurrence(V, k, 0, N-1)</p><p> */</p><p>int searchNumOccurrence(vector&lt;int&gt; &amp;V, int k, int start, int end) {</p><p>    if (start &gt; end) return 0;</p><p>    int mid = (start + end) / 2;</p><p>    if (V[mid] &lt; k) return searchNumOccurrence(V, k, mid + 1, end);</p><p>    if (V[mid] &gt; k) return searchNumOccurrence(V, k, start, mid - 1);</p><p>    return searchNumOccurrence(V, k, start, mid - 1) + 1 + searchNumOccurrence(V, k, mid + 1, end);</p><p>}</p><p></p><p></p><p></p><p>NOTE : This question involves recursion which will be explained later in topic Backtracking. So, if you are not able to approach this question now, you can give it a try later.</p><p></p><p></p></html>
