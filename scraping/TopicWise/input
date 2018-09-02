@@ -1,13 +1,1 @@
-
-Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
-Example:
-"A man, a plan, a canal: Panama" is a palindrome.
-"race a car" is not a palindrome.
-Return 0 / 1 ( 0 for false, 1 for true ) for this problem
-
-
-NOTE: You only need to implement the given function. Do not read input, instead use the arguments to the function. Do not print the output, instead return values as specified.
-                                  Still have a doubt? Checkout Sample Codes for more details.
-                              
-
-
+Given a set of non-negative integers, and a value sum, determine if there is a subset of the given set with sum equal to given sum.

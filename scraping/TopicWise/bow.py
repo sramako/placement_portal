@@ -79,27 +79,41 @@ for line in file:
         s[word] = string.join(rem,'')
     s = filter(lambda a: a!='',s)
     for i in s:
-        if len(s)>2 and ('\n' not in j):
-            data.append(i)
+        if len(i)>2 and ('\n' not in i):
+            data.append(i.lower())
 
 file.close()
 #print data
-print bow
+#print bow
 p = [0]*len(k)
 
 for i in data:
     if i in bow:
-        print i
         s = set(bow[i])
         for j in s:
             a = bow[i].count(j)+0.0
             v = a / len(bow[i])
             #print '\t',j,v*100,'%'
             p[j] += v
+    else:
+        print 'Not Found'
 
-print p
+for i in range(0,len(p)):
+    if p[i]==1:
+        #print '1 Found'
+        p[i]=0
+
+#print p
 p2 = copy.deepcopy(p)
 p2.sort()
 p2=p2[::-1]
+#print p2
+m = sum(p2)
+#print p2
+#print m
+
+if( p.count(p2[0]) > 1 ):
+    print "Can not classify."
 for i in p2:
-    print round(i,4),'%','\t\t',k[p.index(i)]
+    print round(i*100/m,4),'%','\t\t',k[p.index(i)]
+    p[p.index(i)]=-1
